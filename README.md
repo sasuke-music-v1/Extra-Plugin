@@ -15,8 +15,8 @@ If you encounter any error like "failed to app creation", then fork and deploy.
 
 ### 🔧 VPS Deployment
 
-1. Get your [Necessary Variables](https://github.com/maythushar-music/maythusharmusic/blob/master/sample.env)
-2. Clone the repo: `git clone https://github.com/maythushar-music/maythusharmusic && cd maythusharmusic`
+1. Get your [Necessary Variables](https://github.com/sasuke-music-v1/maythusharmusic/blob/master/sample.env)
+2. Clone the repo: `git clone https://github.com/sasuke-music-v1/maythusharmusic && cd maythusharmusic`
 3. Set up by: `bash setup`
 4. Install tmux to keep running your bot when you close the terminal by: `sudo apt install tmux && tmux`
 5. Finally, run the bot by: `python3 -m maythusharmusic`
@@ -32,14 +32,14 @@ This repository includes various plugins that extend the capabilities of the may
 
 You can use the attributes and functions provided by `utils.py` directly in your plugins. Here are some examples:
 
-These are some attributes of [`utils`](https://github.com/maythushar-music/Extra-Plugin/blob/master/utils.py)
+These are some attributes of [`utils`](https://github.com/sasuke-music-v1/Extra-Plugin/blob/master/utils.py)
 - `utils.get_image(cid)`
 - `utils.save_couple(cid, date, couple, img)`
 - `utils.set_welcome(chat_id, message, raw_text, file_id)`
 
 You also can use the `app` That is Pyrogram Client without importing and same as with `logger` for logging purposes like logger.info("Hello World")
 
-You can also leverage the dynamic attributes added in [`maythusharmusic/core/bot.py`](https://github.com/maythushar-music/maythusharmusic/blob/master/maythusharmusic/core/bot.py) to enhance your plugins.
+You can also leverage the dynamic attributes added in [`maythusharmusic/core/bot.py`](https://github.com/sasuke-music-v1/maythusharmusic/blob/master/maythusharmusic/core/bot.py) to enhance your plugins.
 
 ## Contributing
 
